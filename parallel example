@@ -24,8 +24,14 @@ stages {
 				echo "Keep Growing!!"
 				sleep 5
 				}
-			}	
-	
+			}
+			stage	('Stage-edit')
+			{
+				steps{
+				echo "Keep editing!"
+				sleep 5
+				}
+			}
 
 		}
 	}
